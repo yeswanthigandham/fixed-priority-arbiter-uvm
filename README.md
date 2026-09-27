@@ -190,14 +190,15 @@ The coverage report below shows the functional coverage achieved for the randomi
 ```text
 fixed-priority-arbiter-uvm/
 │
-├── rtl/
-│   └── fixed_priority_arb.sv
+├── fixed_priority_arb.sv
 │
-├── tb/
-│   └── tb.sv
+├── tb.sv
 │
 ├── waveform/
 │   └── priority_arbiter_waveform.png
+│   └── coverage.png
+│
+├── log.txt
 │
 ├── README.md
 └── .gitignore
